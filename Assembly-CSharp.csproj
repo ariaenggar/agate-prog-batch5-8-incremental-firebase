@@ -59,9 +59,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AchievementController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\LoadingController.cs" />
     <Compile Include="Assets\Scripts\ResourceController.cs" />
     <Compile Include="Assets\Scripts\TapArea.cs" />
     <Compile Include="Assets\Scripts\TapText.cs" />
+    <Compile Include="Assets\Scripts\UserDataManager.cs" />
+    <Compile Include="Assets\Scripts\UserProgressData.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/gameprojects/unity/Incremental/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
