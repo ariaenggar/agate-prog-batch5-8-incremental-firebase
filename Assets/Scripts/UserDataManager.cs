@@ -9,7 +9,7 @@ public static class UserDataManager
 
     private const string PROGRESS_KEY = "Progress";
 
-    public static UserProgressData Progress;
+    public static UserProgressData Progress = new UserProgressData();
 
     public static void LoadFromLocal()
     {
@@ -79,6 +79,8 @@ public static class UserDataManager
         
         if (uploadToCloud)
         {
+            AnalyticsManager.SetUserProperties ("gold", Progress.Gold.ToString ());
+            
             byte[] data = Encoding.Default.GetBytes (json);
 
             StorageReference targetStorage = GetTargetCloudStorage ();

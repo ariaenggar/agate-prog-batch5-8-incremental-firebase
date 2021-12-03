@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AchievementController.cs" />
+    <Compile Include="Assets\Scripts\AnalyticsManager.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\LoadingController.cs" />
     <Compile Include="Assets\Scripts\ResourceController.cs" />
