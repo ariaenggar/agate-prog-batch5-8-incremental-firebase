@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "972865344568",
+    "project_id": "dilo-incremental-ariaenggar",
+    "storage_bucket": "dilo-incremental-ariaenggar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972865344568:android:143c7acb125227b0df02cd",
+        "android_client_info": {
+          "package_name": "com.ariaenggar.incremental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972865344568-dts5hl2n0en4p9ju35kkevuuo3cti4ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhTFAuH9RedqjwxEsIwitdpTj_VKaWJ5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972865344568-dts5hl2n0en4p9ju35kkevuuo3cti4ik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

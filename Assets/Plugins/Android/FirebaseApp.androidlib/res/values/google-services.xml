@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">972865344568</string>
+  <string name="google_storage_bucket" translatable="false">dilo-incremental-ariaenggar.appspot.com</string>
+  <string name="project_id" translatable="false">dilo-incremental-ariaenggar</string>
+  <string name="google_api_key" translatable="false">AIzaSyAhTFAuH9RedqjwxEsIwitdpTj_VKaWJ5I</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAhTFAuH9RedqjwxEsIwitdpTj_VKaWJ5I</string>
+  <string name="google_app_id" translatable="false">1:972865344568:android:143c7acb125227b0df02cd</string>
+  <string name="default_web_client_id" translatable="false">972865344568-dts5hl2n0en4p9ju35kkevuuo3cti4ik.apps.googleusercontent.com</string>
+</resources>

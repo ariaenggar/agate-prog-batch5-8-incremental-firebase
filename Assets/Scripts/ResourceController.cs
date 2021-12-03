@@ -12,48 +12,28 @@ public class ResourceController : MonoBehaviour
     private int _index;
 
     private int _level
-
     {
-
         set
-
         {
-
             // Menyimpan value yang di set ke _level pada Progress Data
-
             UserDataManager.Progress.ResourcesLevels[_index] = value;
-
-            UserDataManager.Save ();
-
+            UserDataManager.Save(true);
         }
-
- 
 
         get
-
         {
-
             // Mengecek apakah index sudah terdapat pada Progress Data
-
             if (!UserDataManager.HasResources (_index))
-
             {
-
                 // Jika tidak maka tampilkan level 1
-
                 return 1;
-
             }
-
- 
-
+            
             // Jika iya maka tampilkan berdasarkan Progress Data
-
             return UserDataManager.Progress.ResourcesLevels[_index];
-
         }
-
     }
+    
     public bool IsUnlocked { get; private set; }
 
     private void Start ()
@@ -150,7 +130,7 @@ public class ResourceController : MonoBehaviour
             if (!UserDataManager.HasResources(_index))
             {
                 UserDataManager.Progress.ResourcesLevels.Add (_level);
-                UserDataManager.Save ();
+                UserDataManager.Save(true);
             }
         }
         
